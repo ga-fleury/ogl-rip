@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+[data-gl-image] {
+  width: 900px;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+[data-gl-image] canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: block;
+}
+
+[data-gl-image] img {
+  display: block;
+  opacity: 0;
+  pointer-events: none;
+}
